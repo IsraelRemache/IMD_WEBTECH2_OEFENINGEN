@@ -1,0 +1,163 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.logo {
+    width: 250px;
+    text-align: center;
+    margin: 25px auto 50px auto;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin: 0px 0px 25px;
+}
+
+#superman{
+    background-image: url(../images/superman.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+}
+
+#batman{
+    background-image: url(../images/batman.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+}
+
+#wolverine{
+    background-image: url(../images/wolverine.jpg);
+    background-size: cover;
+}
+
+#watchmen{
+    background-image: url(../images/watchmen.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    
+}
+#hulk {
+    background-image: url(../images/hulk.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    
+}
+#kickass2{
+    background-image: url(../images/kickass2.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    
+    
+}
+#thor{
+    background-image: url(../images/thor.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    
+    
+}
+#ironman{
+    background-image: url(../images/ironman.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    
+}
+#spiderman{
+    background-image: url(../images/spiderman.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    
+}
+.first{
+    align-content: space-around;
+    flex: 1 1 50%;    
+    margin-right: 2%;
+}
+
+.first:nth-child(2) {
+    margin-right: 0;
+}
+
+.second{
+    align-content: space-around;
+    flex: 1 1 25%;
+    margin-right: 2%;
+}
+
+.second:last-child {
+    margin-right: 0px;
+}
+
+.third{
+    align-content: space-around;
+    flex: 1 1 33%;
+    margin-right: 2%;
+}
+
+.third:last-child {
+    margin-right: 0px;
+}
+
+section{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.row div {
+    position:relative;
+}
+
+.blok-title {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.third .blok-title {
+    font-size: 12px;
+}
+
+.second .blok-title {
+    font-size: 11px;
+}
+.logo-top {
+    color: white;
+    text-transform: uppercase;
+    
+}
+.logo-bottom{
+    text-transform: uppercase;
+    color:yellow;
+}

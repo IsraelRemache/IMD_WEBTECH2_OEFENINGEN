@@ -18,6 +18,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-left: 20px;
+    font-style: italic;
 }
 
 element.style {
